@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>사충기 강릉여행</title>
+    <style>
+      html, body, span, div, ul, li, h1, h2 {
+        margin:0; padding:0;
+      }
+      body{
+        background-image:url(img/8.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        background-position:center bottom;
+      }
+      #wrapper {
+        max-width:68em;
+        width:100%;
+        margin:0 auto;
+      }
+      #header {
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+        padding:4rem 0 2rem 0;
+      }
+      #header h1 {
+        font-size:4rem;
+        font-weight:700;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      #header .avatar {
+        border-radius:100%;
+        background-color:rgba(255, 255, 255, 0.2);
+        border:1px solid rgba(255, 255, 255, 0.7);
+        padding:0.5em;
+        margin:0 0 2em 0;
+        display:inline-block;
+      }
+      .avatar img {
+        width:10em;
+        display:block;
+        margin:auto;
+      }
+      .icons {
+        cursor:default;
+      }
+      .icons li {
+        list-style:none;
+        display:inline-block;
+      }
+      .icons img {
+        opacity:0.7;
+        width:4em
+      }
+      .icons a {
+        display:block;
+        width:10em;
+        height:10em;
+        height:auto;
+        background-image:url("img/icon01.png");
+      }
+      .label {
+        display:none;
+        width:100%;
+      }
+      #section{
+        width:100%;
+        display:block;
+        padding:2em 0 2em 0;
+      }
+      .thumbnails{
+        display:flex;
+        flex-direction:row;
+        position:relative;
+        flex-wrap:wrap;
+        align-items:flex-start;
+        justify-content:center;
+      }
+      .thumbnails div {
+        display:flex;
+        max-width:25%;
+        flex:auto;
+        padding-left:2em;
+        padding-bottom:2em;
+      }
+      .thumbnails a{
+        display: block;
+        text-decoration:none;
+        border-radius:4px;
+        box-shadow:inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+        cursor:pointer;
+        background-color:rgba(255, 255, 255, 0.2);
+        overflow:hidden;
+      }
+      .thumbnails a:hover{
+        backgroud-color:rgba(255, 255, 255, 0.2);
+        box-shadow:1px 1px 10px 10px rgba(226, 106, 106, 0.3);
+      }
+      .thumbnails img{
+        display: block;
+        width:100%;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+      }
+      .thumbnails h2 {
+        text-decoration:none;
+        text-align:center;
+        color:rgba(255, 255, 255, 0.8);
+        margin:0.5em;
+      }
+      .thumbnails p {
+        text-align: center;
+        color:rgba(255, 255, 255, 1);
+      }
+
+@media screen and (max-width:1280px){
+  .thumbnails {
+    margin: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width:980px){
+  .thumbnails {
+    margin: 0 0 0 0;
+    font-size:0.8em;
+  }
+}
+
+@media screen and (max-width:480px){
+  #header h1 {
+    font-size:2em;
+    padding:0 1em 0 1em;
+  }
+  .thumbnails {
+    font-size:1em;
+    display:block;
+  }
+  .thumbnails div {
+    display:block;
+    max-width:100%;
+    width:100%;
+    padding-left:0;
+  }
+  .thumbnails a {
+    padding:0;
+  }
+}
+
+footer {
+  margin-top:auto;
+  color:rgba(255, 255, 255, 0.7);
+  text-align:center;
+  font-size:1em;
+  font-weight:700;
+  color:rgba(1, 50, 67, 1);
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <span class="avatar">
+          <img src="img/avatar.png">
+        </span>
+        <h1>사충기의 강릉 여행기 입니다^^*</h1>
+        <ul class="icons">
+          <li><a href="#"><div class="label insta"><span>인스타그램</span></div></a></li>
+          <li><a href="#"><div class="label mail">이메일</div></a></li>
+          <li><a href="#"><div class="label face">페이스북</div></a></li>
+          <li><a href="#"><div class="label cacao">카카오스토리</div></a></li>
+        </ul>
+      </header>
+      <section id="section">
+        <section class="thumbnails">
+        <!--첫번째이미지-->
+        <div>
+          <a href="img/10.jpg" target="_blank">
+            <img src="img/10.jpg" />
+            <h2>1일</h2>
+            <p>#강릉역</p>
+          </a>
+        </div>
+        <!--두번째이미지-->
+        <div>
+          <a href="img/7.jpg" target="_blank">
+            <img src="img/7.jpg" />
+            <h2>1일</h2>
+            <p>#펜션앞 #소나무</p>
+          </a>
+        </div>
+          <!--세번째이미지-->
+        <div>
+          <a href="img/12.jpg" target="_blank">
+            <img src="img/12.jpg" />
+            <h2>2일</h2>
+            <p>#강문해변</p>
+          </a>
+        </div>
+        <!--네번째이미지-->
+        <div>
+          <a href="img/2.JPG" target="_blank">
+            <img src="img/2.JPG" />
+            <h2>2일</h2>
+            <p>#경포호수공원</p>
+          </a>
+        </div>
+        <!--다섯번째이미지-->
+        <div>
+          <a href="img/3.JPG" target="_blank">
+            <img src="img/3.JPG" />
+            <h2>2일</h2>
+            <p>#삼둥이 #대한민국만세 <br>#난일국이</p>
+          </a>
+        </div>
+        <!--여섯번째이미지-->
+        <div>
+          <a href="img/4.JPG" target="_blank">
+            <img src="img/4.JPG" />
+            <h2>2일</h2>
+            <p>#태희혜교지현이</p>
+          </a>
+        </div>
+        <!--일곱번째이미지-->
+        <div>
+          <a href="img/5.JPG" target="_blank">
+            <img src="img/5.JPG" />
+            <h2>2일</h2>
+            <p>#갬희박희검희맴희</p>
+          </a>
+        </div>
+        <!--여덟번째이미지-->
+        <div>
+          <a href="img/6.JPG" target="_blank">
+            <img src="img/6.JPG" />
+            <h2>2일</h2>
+            <p>#벚꽃</p>
+          </a>
+        </div>
+
+
+
+
+
+        <!--추가이미지-->
+        <div>
+          <a href="img/9.jpg" target="_blank">
+            <img src="img/9.jpg" />
+            <h2>2일</h2>
+            <p>#♧</p>
+          </a>
+        </div>
+
+        <!--추가이미지-->
+        <div>
+          <a href="img/11.jpg" target="_blank">
+            <img src="img/11.jpg" />
+            <h2>2일</h2>
+            <p>#조이만세</p>
+          </a>
+        </div>
+
+      </section>
+      </section>
+      <footer>
+        <p>사충기 강릉 여행 기념 by 박희 해수</p>
+      </footer>
+      <!-- Scripts -->
+  			<script src="assets/js/jquery.min.js"></script>
+  			<script src="assets/js/main.js"></script>
+    </div>
+  </body>
+</html>
